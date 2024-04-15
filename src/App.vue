@@ -2,11 +2,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Titan from './components/Titan.vue'
 import Header from './components/Header.vue'
+import ProductList from './components/catalog/ProductList.vue'
 </script>
 
 <template>
-  <!-- <Header /> -->
-  <Titan />
+  <Header />
+  <main class="wrapper">
+    <ProductList />
+  </main>
+  <!-- <Titan /> -->
 </template>
 
 <style scoped>
